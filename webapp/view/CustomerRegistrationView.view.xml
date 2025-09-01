@@ -1,19 +1,46 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <mvc:View xmlns:mvc="sap.ui.core.mvc"
   xmlns="sap.m"
   xmlns:layout="sap.ui.layout"
   xmlns:form="sap.ui.layout.form"
   xmlns:core="sap.ui.core"
-  xmlns:richtexteditor="sap.ui.richtexteditor"
-  xmlns:viz="sap.viz.ui5"
-  controllerName="preview.app.controller.CustomerRegistrationView"
-  displayBlock="true">
-  <Page title="CustomerRegistrationView" enableScrolling="true">
+  controllerName="converted.customerregistrationview.controller.CustomerRegistrationView"
+  displayBlock="true"
+          xmlns:commons="sap.ui.commons">
+  <Page title="Customer Registration" enableScrolling="true">
     <content>
-      <Title id="title_i5u46i7y" text="Customer Registration"/>
-      <form:SimpleForm id="formContainer">
+      <form:SimpleForm id="formContainer" layout="ResponsiveGridLayout" editable="true">
         <form:content>
-          <!-- Empty SimpleForm content -->
+          <Label text="First Name" />
+          <Input id="firstNameField" value="{/firstName}" />
+
+          <Label text="Last Name" />
+          <Input id="lastNameField" value="{/lastName}" />
+
+          <Label text="Email" />
+          <Input id="emailField" value="{/email}" required="true" />
+
+          <Label text="Phone Number" />
+          <Input id="phoneField" value="{/phoneNumber}" />
+
+          <Label text="Company Name" />
+          <Input id="companyField" value="{/companyName}" />
+
+          <Label text="Job Title" />
+          <Input id="jobTitleField" value="{/jobTitle}" />
+
+          <Label text="Address" />
+          <Input id="addressField" value="{/address}" />
+
+          <Label text="Terms and Conditions" />
+          <CheckBox id="termsCheckBox" selected="{/termsAccepted}" />
+
+          <Button id="submitButton" text="Submit" press="onSubmit" tooltip="Submit the registration form"/>
+          <MessageStrip
+            text="Please fill in all required fields."
+            type="Warning"
+            showIcon="true"
+            class="sapUiResponsiveMargin"
+            visible="{= ${/email} === '' || ${/termsAccepted} === false }"/>
         </form:content>
       </form:SimpleForm>
     </content>

@@ -1,0 +1,104 @@
+{
+  "customers": [
+    {
+      "firstName": "John",
+      "lastName": "Smith",
+      "email": "john.smith@example.com",
+      "phoneNumber": "123-456-7890",
+      "companyName": "Acme Corp",
+      "jobTitle": "Software Engineer",
+      "address": "123 Main St, Anytown",
+      "termsAccepted": true
+    },
+    {
+      "firstName": "Alice",
+      "lastName": "Johnson",
+      "email": "alice.johnson@example.com",
+      "phoneNumber": "987-654-3210",
+      "companyName": "Beta Inc",
+      "jobTitle": "Project Manager",
+      "address": "456 Elm St, Anytown",
+      "termsAccepted": false
+    },
+    {
+      "firstName": "Bob",
+      "lastName": "Williams",
+      "email": "bob.williams@example.com",
+      "phoneNumber": "555-123-4567",
+      "companyName": "Gamma Ltd",
+      "jobTitle": "Data Scientist",
+      "address": "789 Oak St, Anytown",
+      "termsAccepted": true
+    },
+    {
+      "firstName": "Emily",
+      "lastName": "Brown",
+      "email": "emily.brown@example.com",
+      "phoneNumber": "111-222-3333",
+      "companyName": "Delta Co",
+      "jobTitle": "UX Designer",
+      "address": "101 Pine St, Anytown",
+      "termsAccepted": true
+    },
+    {
+      "firstName": "David",
+      "lastName": "Jones",
+      "email": "david.jones@example.com",
+      "phoneNumber": "444-555-6666",
+      "companyName": "Epsilon Group",
+      "jobTitle": "Marketing Manager",
+      "address": "222 Cedar St, Anytown",
+      "termsAccepted": false
+    },
+    {
+      "firstName": "Sarah",
+      "lastName": "Davis",
+      "email": "sarah.davis@example.com",
+      "phoneNumber": "777-888-9999",
+      "companyName": "Zeta Corp",
+      "jobTitle": "Sales Representative",
+      "address": "333 Maple St, Anytown",
+      "termsAccepted": true
+    },
+    {
+      "firstName": "Michael",
+      "lastName": "Wilson",
+      "email": "michael.wilson@example.com",
+      "phoneNumber": "123-789-4560",
+      "companyName": "Eta Inc",
+      "jobTitle": "Financial Analyst",
+      "address": "444 Walnut St, Anytown",
+      "termsAccepted": true
+    },
+    {
+      "firstName": "Jessica",
+      "lastName": "Garcia",
+      "email": "jessica.garcia@example.com",
+      "phoneNumber": "987-321-6540",
+      "companyName": "Theta Ltd",
+      "jobTitle": "Human Resources Manager",
+      "address": "555 Birch St, Anytown",
+      "termsAccepted": false
+    },
+    {
+      "firstName": "Christopher",
+      "lastName": "Rodriguez",
+      "email": "christopher.rodriguez@example.com",
+      "phoneNumber": "555-456-1237",
+      "companyName": "Iota Co",
+      "jobTitle": "Operations Manager",
+      "address": "666 Cherry St, Anytown",
+      "termsAccepted": true
+    },
+    {
+      "firstName": "Ashley",
+      "lastName": "Martinez",
+      "email": "ashley.martinez@example.com",
+      "phoneNumber": "111-333-2223",
+      "companyName": "Kappa Group",
+      "jobTitle": "Customer Service Representative",
+      "address": "777 Oak St, Anytown",
+      "termsAccepted": true
+    }
+  ]
+}
